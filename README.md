@@ -9,7 +9,7 @@
 ![MicroservicePlan](https://github.com/user-attachments/assets/d456deba-2e62-4534-9ab4-823270e7d725)
 
 
--Yukarıdaki yapıda kırmızı ile işaretlenenler fail, yeşil ile işaretlenenler başarılı senaryolardır.
+Yukarıdaki yapıda kırmızı ile işaretlenenler fail, yeşil ile işaretlenenler başarılı senaryolardır.
 
 # Event List
 ### Publish
