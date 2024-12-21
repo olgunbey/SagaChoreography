@@ -30,7 +30,7 @@ builder.Services.AddMassTransit<IBus>(y =>
     });
 
 });
-builder.Services.AddDbContext<OrderDbContext>(y => y.UseSqlServer("Server=OLGUNBEY\\SQLEXPRESS; Database=ChoregraphyOrderDb; Trusted_Connection=True; TrustServerCertificate=True;"));
+builder.Services.AddDbContext<OrderDbContext>(y => y.UseSqlServer(builder.Configuration.GetConnectionString("DbContext")));
 
 
 var app = builder.Build();

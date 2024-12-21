@@ -22,7 +22,7 @@ namespace Stock.API.Consumers
             }
             foreach (var item in _productStockInfos)
             {
-                Console.WriteLine("Stoklar: "+ item.ProductId + " " + item.Stock);
+                Console.WriteLine("Stoklar: " + item.ProductId + " " + item.Stock);
             }
 
             if (resuls.TrueForAll(y => y.Equals(true)))
