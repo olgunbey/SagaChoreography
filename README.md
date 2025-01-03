@@ -21,6 +21,9 @@ Yukarıdaki yapıda kırmızı ile işaretlenenler fail, yeşil ile işaretlenen
 - StockCanceled
 - PaymentCanceled
 
+
+Kaynakça: Gençay Yıldız
+
   
 
 
