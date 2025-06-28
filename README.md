@@ -12,12 +12,12 @@
 Yukarıdaki yapıda kırmızı ile işaretlenenler fail, yeşil ile işaretlenenler başarılı senaryolardır.
 
 # Event List
-### Publish
-- OrderCreated 
+### Publish 
 - PaymentCanceled
 
 ### Send
 - StockAccepted
+- OrderCreated
 - StockCanceled
 - PaymentCanceled
 
