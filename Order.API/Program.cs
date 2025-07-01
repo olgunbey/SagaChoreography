@@ -67,7 +67,7 @@ app.MapPost("create-order", async (CreateOrderVM createOrderMv, OrderDbContext o
             ProductId = y.Id
         })
     };
-    await bus.Publish(orderCreatedEvent);
+    await bus.Send(orderCreatedEvent);
     return Results.Ok("xd");
 
 });
